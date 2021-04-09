@@ -10,11 +10,11 @@ var polygon1, slingShot;
 var score = 0;
 var backgroundImg;
 var gameState = "on slingshot";
-var bg = "Sprites/bg.jpg";
+var bg = "bg.jpg";
 
 function preload() {
   getBackgroundImg();
-  backgroundImg = loadImage("Sprites/bg1.jpg");
+  backgroundImg = loadImage("bg1.jpg");
 }
 
 function setup() {
